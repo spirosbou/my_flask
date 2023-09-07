@@ -1,6 +1,6 @@
 import sqlite3
 
-connex = sqlite3.connect('motorbike.sqlite')
+connex = sqlite3.connect('motorbikes.sqlite')
 
 cursor = connex.cursor()
 sql_query = """ CREATE TABLE moto (

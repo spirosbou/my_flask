@@ -7,19 +7,19 @@ services:
     ports:
       - 5000:5000
     environment:
-      DB_URL: postgresdb://db/motorbike
+      DB_URL: postgresdb://db/motorbikes
   db:
     image: postgres
     restart: always
     environment:
       POSTGRES_PASSWORD: root
       POSTGRES_USER: root
-      POSTGRES_DB: motorbike
+      POSTGRES_DB: motorbikes
     ports: 
       - 5432:5432
     volumes:
-      - motorbike:/data/db
+      - motorbikes:/data/db
 
 volumes:
-  motorbike: 
+  motorbikes: 
 

@@ -6,7 +6,7 @@ app = Flask(__name__)
 def db_conn():
     connex = None
     try:
-        connex = sqlite3.connect('motorbike.sqlite')
+        connex = sqlite3.connect('motorbikes.sqlite')
     except sqlite3.error as e:
         print(e)
     return connex
