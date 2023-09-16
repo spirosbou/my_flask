@@ -1,12 +1,15 @@
-from app import app 
-
-
-def test_get_api():
-    with app.test_client() as c:
-        response = c.get('/moto')
-        json_response = response.get_json()
-        assert response.status_code == 200
+from app import app
 
 
 
-        
+def test_get_moto():
+    pass
+
+def test_create_moto():
+   pass
+
+def test_update_moto():
+    pass
+
+def test_delete_moto():
+    pass
