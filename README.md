@@ -1,6 +1,7 @@
 
-# Project Title
+# Flask Project
 A simple Python-Flask Api connected to a Database and running on Docker.
+Basic operations (CRUD). 
 
 ## 🛠 Skills
 Python, Flask, Sqlite, Docker
